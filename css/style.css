@@ -1,9 +1,44 @@
-html, 
-body {
-    margin: 0;
-    padding: 0;
+*,
+*::after,
+*::before {
+	/* padding is included in (Not added on) the width */
+	box-sizing: border-box;
 }
 
-.hidden{
-    display: none;
+/* Custom Properties */
+
+:root {
+	--ff-primary: "Source Sans Pro", sans-serif;
+
+	--fw-reg: 400;
+	--fw-semi-bold: 600;
+	--fw-bold: 700;
+
+	--clr-light: #fff;
+	--clr-dark: #141414;
+	--clr-grey: #505050;
+
+	--fs-h1: 2rem;
+	--fs-h2: 1.5rem;
+	--fs-body: 1rem;
+	--fs-footer: 0.75rem;
+}
+
+@media (min-width: 800px) {
+	:root {
+		--fs-h1: 2.5rem;
+	}
+}
+
+/* General styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
 }
