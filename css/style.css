@@ -73,7 +73,7 @@ p {
 .container {
 	width: 90%;
 	max-width: 900px;
-	padding-top: 1.5rem;
+	padding: 2.5rem 0;
 	margin: 0 auto;
 }
 
@@ -142,12 +142,14 @@ img {
 
 /* Layout */
 
+/* header nav */
 .logo img {
 	width: 1.5rem;
 	margin-right: 0.3em;
 	max-width: 100px;
 }
 
+/* intro section */
 .hero {
 	background-image: url("../images/mobile-image-hero.png");
 	background-size: cover;
@@ -161,6 +163,7 @@ img {
 	padding-top: 20vw;
 }
 
+/* main section */
 .posts {
 	display: grid;
 	gap: 1em;
@@ -173,4 +176,17 @@ img {
 
 .article__preview {
 	margin-top: 0;
+}
+
+/* footer */
+.footer{
+	background-color: var(--clr-dark);
+	color: var(--clr-light);
+	text-align: center;
+	padding: 2.5em 0;
+	letter-spacing: -0.03em;
+}
+
+.footer a{
+	display: block;
 }

@@ -3,5 +3,21 @@ x- read semantic
 x- determine text tags
 x- fill out html content
 x- layout design, use grid here
-- set up css general and var
+x - set up css general and var
+
+
+2;
+- create read more page
+- reformat new page
+- media query 
+
+- create About me page
+- media query
+
+- link pages to home
+
+3; 
+- js for view more
+- add in rest of blog js toggle for view less
+
 
