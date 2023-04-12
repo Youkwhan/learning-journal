@@ -14,8 +14,8 @@
 	--fw-semi-bold: 600;
 	--fw-bold: 700;
 
-	--clr-light: #fff;
-	--clr-dark: #141414;
+	--clr-light: #fafafa;
+	--clr-dark: #151515;
 	--clr-grey: #505050;
 
 	--fs-h1: 2rem;
@@ -31,14 +31,86 @@
 }
 
 /* General styles */
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
 	margin: 0;
+	background-color: var(--clr-light);
+	color: var(--clr-dark);
+	font-family: var(--ff-primary);
+	font-size: var(--fs-body);
+	line-height: 1.5;
 }
+
+header{
+    padding: 15px 20px;
+}
+
+section {
+	padding: 2em 1.8em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1,h2,h3{
+    line-height: 1;
+    margin: 0;
+}
+
+/* p {
+	margin-top: 0;
+} */
 
 .hidden {
 	display: none;
+}
+
+/* Buttons / link */
+
+.read-more-link {
+	flex-shrink: 0;
+	border-radius: 4px;
+	text-decoration: underline;
+	color: antiquewhite;
+}
+
+/* Typography */
+
+.logo-text{
+    font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-h2);
+    letter-spacing: -0.03em;
+}
+
+.section__title {
+	font-size: var(--fs-h1);
+	font-weight: var(--fw-bold);
+    margin-top: 0.3em;
+}
+
+/* Layout */
+
+.logo img{
+    width: 1.5rem;
+    margin-right: 0.3em;
+    max-width: 100px;
+}
+
+.hero {
+	background-image: url("../images/mobile-image-hero.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	color: var(--clr-light);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-top: 20vw;
 }
