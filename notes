@@ -15,8 +15,8 @@ x- create About me page
 x- media query
 
 3;
--hamburger
-- media query larger screen no hambburger
+x-hamburger
+- media query larger screen no hambburger (skip)
 - link pages to home
 
 4; 
