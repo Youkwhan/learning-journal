@@ -7,9 +7,9 @@ x - set up css general and var
 
 
 2;
-- create read more page
-- reformat new page
-- media query 
+x- create read more page
+x- reformat new page
+x- media query 
 
 - create About me page
 - media query
@@ -19,5 +19,12 @@ x - set up css general and var
 3; 
 - js for view more
 - add in rest of blog js toggle for view less
+
+* home we show all posts
+* readmore, aboutme show 3 posts
+
+5;
+-hamburger
+- media query larger screen no hambburger
 
 
