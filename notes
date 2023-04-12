@@ -11,20 +11,21 @@ x- create read more page
 x- reformat new page
 x- media query 
 
-- create About me page
-- media query
+x- create About me page 
+x- media query
 
+3;
+-hamburger
+- media query larger screen no hambburger
 - link pages to home
 
-3; 
+4; 
 - js for view more
 - add in rest of blog js toggle for view less
 
 * home we show all posts
 * readmore, aboutme show 3 posts
 
-5;
--hamburger
-- media query larger screen no hambburger
+
 
 
