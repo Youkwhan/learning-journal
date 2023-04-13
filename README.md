@@ -30,7 +30,7 @@ The requirements of the project include:
 ![desktop-capture](screencapture-youk-blog-netlify-app-2023-04-13-16_13_30.png)
 
 #### Mobile
-![mobile-capture](screencapture-youk-blog-netlify-app-2023-04-13-16_15_17.png)
+<img alt="mobile-capture" src="screencapture-youk-blog-netlify-app-2023-04-13-16_15_17.png" width="500">
 
 ## Technologies
 - HTML
