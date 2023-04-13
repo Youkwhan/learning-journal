@@ -30,19 +30,20 @@
 					<span class="logo-text">My Learning Journal</span>
 				</a>
 			</div>
-			<button class="nav-toggle" aria-label="toggle navigation">
-				<span class="hamburger"></span>
+			<!-- nav -->
+			<div id="mySidepanel" class="sidepanel">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+					>&times;</a
+				>
+				<hr>
+				<a class="nav__link" href="./index.html">Home</a>
+				<hr>   
+				<a class="nav__link" href="./about-me.html">About</a>
+			</div>
+
+			<button class="openbtn" onclick="openNav()">
+				&#9776;
 			</button>
-			<nav class="nav">
-				<ul class="nav__list">
-					<li class="nav__item">
-						<a class="nav__link" href="./index.html">Home</a>
-					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="./about-me.html">About</a>
-					</li>
-				</ul>
-			</nav>
 		</header>
 
 		<!-- intro section -->
@@ -143,7 +144,7 @@
 		</main>
 		<!-- footer -->
 		<footer class="footer">
-			<a class="footer__link">My Learning Journal</a>
+			<a href="index.html" class="footer__link">My Learning Journal</a>
 			<small>Copyright &copy;2023 </small>
 		</footer>
 
