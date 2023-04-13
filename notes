@@ -17,14 +17,14 @@ x- media query
 3;
 x-hamburger
 - media query larger screen no hambburger (skip)
-- link pages to home
+x- link pages to home
 
 4; 
 - js for view more
 - add in rest of blog js toggle for view less
 
-* home we show all posts
-* readmore, aboutme show 3 posts
+* home.html we show all posts
+* readmore.html, aboutme.html show 3 posts
 
-* hero section--text on ls, too wide.
+* hero section--text on ls, too wide. (instead of padding, could prob container and set width % to line up with post, Remember they  inflex)
 

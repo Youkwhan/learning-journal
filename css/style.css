@@ -265,10 +265,18 @@ header {
 	padding-top: 20vw;
 }
 
+@media (min-width: 836px) {
+	.hero{
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+	
+}
+
 /* main section */
 .posts {
 	display: grid;
-	gap: 1em;
+	gap: 2em;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
@@ -303,7 +311,7 @@ header {
 	.read-more__intro {
 		display: grid;
 		grid-template-columns: 216px 1fr;
-		column-gap: 1em;
+		column-gap: 2em;
 		justify-items: center;
 		align-items: center;
 	}
