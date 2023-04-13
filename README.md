@@ -14,6 +14,7 @@ Access my site at [https://youk-blog.netlify.app](https://youk-blog.netlify.app)
 - [Status](#status)
 - [Credits](#credits)
 - [License](#license)
+- [Connect](#connect)
 
 ## Overview
 This is my solo project that practices responsive design, which was inspired by Scrimba.
@@ -25,9 +26,9 @@ The requirements of the project include:
 
 ## Screenshots
 
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
+#### Desktop
 
-Picture by [Kelly Sikkema](https://unsplash.com/@kellysikkema)
+#### Mobile
 
 ## Technologies
 - HTML
@@ -60,4 +61,12 @@ List of contriubutors:
 
 ## License
 
-MIT license @ [Youkwhan](https://devyouk.netlify.app)
+MIT license @ Youkwhan
+
+## Connect
+
+Thank you for reading about this project. If you'd like to connect with me for mentoring, collaboration, or employment opportunities, you can do so via the following links:
+
+- Email [Youkwhan@gmail.com](**Youkwhan@gmail.com**)
+- LinkedIn [https://www.linkedin.com/in/youkwhan/](https://www.linkedin.com/in/youkwhan/)
+- Portfolio [https://devyouk.netlify.app](https://devyouk.netlify.app)
