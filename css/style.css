@@ -85,7 +85,7 @@ img {
 	width: 100%;
 }
 
-hr{
+hr {
 	border: 1px outset var(--clr-grey);
 }
 
@@ -116,9 +116,9 @@ hr{
 	border: none;
 	background: none;
 
-	grid-column: 1/-1;
+	/* grid-column: 1/-1; */
 	justify-self: center;
-	align-self: end;
+	align-self: center;
 }
 
 /* img */
@@ -244,7 +244,6 @@ header {
 	padding: 0.2em 0.6em;
 	border: none;
 	background: transparent;
-	
 }
 
 .openbtn:hover {
@@ -266,15 +265,18 @@ header {
 }
 
 @media (min-width: 836px) {
-	.hero{
+	.hero {
 		padding-left: 5em;
 		padding-right: 5em;
 	}
-	
 }
 
 /* main section */
 .posts {
+	display: flex;
+	flex-direction: column;
+}
+.posts__items {
 	display: grid;
 	gap: 2em;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

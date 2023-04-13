@@ -35,15 +35,13 @@
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
 					>&times;</a
 				>
-				<hr>
+				<hr />
 				<a class="nav__link" href="./index.html">Home</a>
-				<hr>
+				<hr />
 				<a class="nav__link" href="./about-me.html">About</a>
 			</div>
 
-			<button class="openbtn" onclick="openNav()">
-				&#9776; 
-			</button>
+			<button class="openbtn" onclick="openNav()">&#9776;</button>
 		</header>
 
 		<!-- hero section -->
@@ -71,51 +69,58 @@
 
 		<!-- main-content -->
 		<main class="posts container">
-			<article>
-				<img
-					class="article__img"
-					src="./images/blog-image-06.png"
-					alt="Post thumbnail"
-				/>
-				<span class="article__date">APRIL 11, 2023</span>
-				<h2 class="article__title">Blog one</h2>
-				<p class="article__preview">
-					I'm excited to start a new learning journey where I get to review code
-					and meet like-minded peers. After several months of learning in the
-					Frontend Developer Career Path.
-				</p>
-			</article>
+			<div class="posts__items">
+				<article>
+					<img
+						class="article__img"
+						src="./images/blog-image-06.png"
+						alt="Post thumbnail"
+					/>
+					<span class="article__date">APRIL 11, 2023</span>
+					<h2 class="article__title">Blog 1</h2>
+					<p class="article__preview">
+						I'm excited to start a new learning journey where I get to review
+						code and meet like-minded peers. After several months of learning in
+						the Frontend Developer Career Path.
+					</p>
+				</article>
 
-			<article>
-				<img
-					class="article__img"
-					src="./images/blog-image-05.png"
-					alt="Post thumbnail"
-				/>
-				<span class="article__date">APRIL 11, 2023</span>
-				<h2 class="article__title">Blog two</h2>
-				<p class="article__preview">
-					I'm excited to start a new learning journey where I get to review code
-					and meet like-minded peers. After several months of learning in the
-					Frontend Developer Career Path.
-				</p>
-			</article>
+				<article>
+					<img
+						class="article__img"
+						src="./images/blog-image-05.png"
+						alt="Post thumbnail"
+					/>
+					<span class="article__date">APRIL 11, 2023</span>
+					<h2 class="article__title">Blog 2</h2>
+					<p class="article__preview">
+						I'm excited to start a new learning journey where I get to review
+						code and meet like-minded peers. After several months of learning in
+						the Frontend Developer Career Path.
+					</p>
+				</article>
 
-			<article>
-				<img
-					class="article__img"
-					src="./images/blog-image-04.png"
-					alt="Post thumbnail"
-				/>
-				<span class="article__date">APRIL 11, 2023</span>
-				<h2 class="article__title">Blog three</h2>
-				<p class="article__preview">
-					I'm excited to start a new learning journey where I get to review code
-					and meet like-minded peers. After several months of learning in the
-					Frontend Developer Career Path.
-				</p>
-			</article>
-			<button class="underline-btn view-more-btn">View More</button>
+				<article>
+					<img
+						class="article__img"
+						src="./images/blog-image-04.png"
+						alt="Post thumbnail"
+					/>
+					<span class="article__date">APRIL 11, 2023</span>
+					<h2 class="article__title">Blog 3</h2>
+					<p class="article__preview">
+						I'm excited to start a new learning journey where I get to review
+						code and meet like-minded peers. After several months of learning in
+						the Frontend Developer Career Path.
+					</p>
+				</article>
+			</div>
+			<button id="view-more" class="underline-btn view-more-btn">
+				View More
+			</button>
+			<button id="view-less" class="underline-btn view-more-btn hidden">
+				View Less
+			</button>
 		</main>
 		<!-- footer -->
 		<footer class="footer">
