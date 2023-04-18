@@ -137,6 +137,9 @@ hr {
 
 .article__img {
 	margin-bottom: 0.5em;
+	height: 15rem;
+	object-fit: cover;
+	object-position: center;
 }
 
 .read-more__img--pfp {
