@@ -20,6 +20,7 @@
 
 	--fs-h1: 2rem;
 	--fs-h2: 1.5rem;
+	--fs-h3: 1.25rem
 	--fs-body: 1rem;
 	--fs-footer: 0.75rem;
 }
@@ -198,56 +199,11 @@ header {
 	align-items: center;
 }
 
-/* The sidepanel menu */
-.sidepanel {
-	height: 155px; /* Specify a height */
-	width: 0; /* 0 width - change this with JavaScript */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Stay on top */
-	top: 0;
-	right: 0;
-	background-color: #111; /* Black*/
-	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 60px; /* Place content 60px from the top */
-	transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-}
-
-/* The sidepanel links */
-.sidepanel a {
-	padding-left: 1em;
-	text-decoration: none;
-	font-size: var(--fs-body);
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidepanel a:hover {
-	color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidepanel .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-}
-
-/* Style the button that is used to open the sidepanel */
-.openbtn {
-	font-size: var(--fs-h2);
-	cursor: pointer;
-	color: var(--clr-dark);
-	padding: 0.2em 0.6em;
-	border: none;
-	background: transparent;
-}
-
-.openbtn:hover {
-	color: var(--clr-grey);
+.nav > a {
+	text-decoration: underline;
+	margin-left: 1em;
+	font-weight: var(--fw-semi-bold);
+	font-size: var(--fs-h3);
 }
 
 /* intro section */
