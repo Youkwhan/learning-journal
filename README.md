@@ -27,10 +27,10 @@ The requirements of the project include:
 ## Screenshots
 
 #### Desktop
-![desktop-capture](screencapture-youk-blog-netlify-app-2023-04-13-16_13_30.png)
+![desktop-capture](./images/readMe-desktop-screencapture.png)
 
 #### Mobile
-<img alt="mobile-capture" src="screencapture-youk-blog-netlify-app-2023-04-13-16_15_17.png" width="500">
+<img alt="mobile-capture" src="./images/readMe-mobile-screencapture.png" width="500">
 
 ## Technologies
 - HTML
